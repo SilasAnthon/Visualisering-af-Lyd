@@ -5,4 +5,5 @@ For at bruge lydvisualiseringsfunktionerne, skal de korrekte Device Indexes før
 Device Indexet for input mode burde altid være 1, da dette er computerens standard-enhed for mikrofonen.
 For output bliver det lidt sværre. Den rigtige output-enhed burde hedde Stereomix ('Standard-enheden for højttaler'). Denne burde have mere end 0 input channels, da det er disse, PyAudio læser lyden fra.
 
+Det er vigtigt, at 'StreamlitUI.py' og 'InfoTekst.py' er i samme mappe for, at infoteksten bliver vist rigtigt i Streamlit.
 For at køre koden til brugergrænsefladen i Streamlit, skal der skrives 'streamlit run StreamlitUI.py' i en dedikeret terminal.
